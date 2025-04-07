@@ -3,7 +3,7 @@ services:
     image: unclecode/crawl4ai:${VERSION:-basic}-${ARCH:-amd64}
     ports:
       - "11235:11235"
-      - "8000:8000"
+      - "8001:8000"
       - "9222:9222"
       - "8080:8080"
     environment:
